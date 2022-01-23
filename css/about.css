@@ -166,10 +166,11 @@ body {
 
 /* -------------------------------------------------------------------------------------------------------- */
                                             /* Responsive Mobile*/
-@media only screen and (max-width: 350px) {
+
+@media only screen and (max-width: 700px) {
     /* Navbar Brand */
   .navbar-brand-text {
-      margin-left: -115px;
+      margin-left: -220px;
   }
   
   .animation img {
@@ -188,7 +189,81 @@ body {
   .why-jaicomp p {
       margin-right: 60px;
   }
-}
+}            
+
+@media only screen and (max-width: 400px) {
+    /* Navbar Brand */
+  .navbar-brand-text {
+      margin-left: -170px;
+  }
+  
+  .animation img {
+      display: none;
+  }
+
+  header {
+      text-align: center;
+  }
+
+  .container-lg {
+    margin-left: 20px;
+    margin-top: 5rem;
+  }
+
+  .why-jaicomp p {
+      margin-right: 60px;
+  }
+
+  .row {
+      display: inline-block;
+  }
+
+  .card {
+      margin: 0 62px;
+      justify-content: center;
+      text-align: center;
+      width: 250px;
+      padding-bottom: 15px;
+  }
+}     
+
+@media only screen and (max-width: 380px) {
+    /* Navbar Brand */
+  .navbar-brand-text {
+      margin-left: -150px;
+  }
+  
+  .animation img {
+      display: none;
+  }
+
+  header {
+      text-align: center;
+  }
+
+  .container-lg {
+    margin-left: 20px;
+    margin-top: 5rem;
+  }
+
+  .why-jaicomp p {
+      margin-right: 60px;
+  }
+
+  .row {
+      display: inline-block;
+  }
+
+  .card {
+      margin: 0 50px;
+      justify-content: center;
+      text-align: center;
+      width: 250px;
+      padding-bottom: 15px;
+  }
+}     
+
+
 
 @media only screen and (max-width: 375px) {
     /* Navbar Brand */
@@ -226,10 +301,10 @@ body {
   }
 }                              
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 360px) {
     /* Navbar Brand */
   .navbar-brand-text {
-      margin-left: -170px;
+      margin-left: -135px;
   }
   
   .animation img {
@@ -254,7 +329,7 @@ body {
   }
 
   .card {
-      margin: 0 62px;
+      margin: 0 45px;
       justify-content: center;
       text-align: center;
       width: 250px;
@@ -262,10 +337,12 @@ body {
   }
 }                              
 
-@media only screen and (max-width: 700px) {
+       
+                                            
+@media only screen and (max-width: 350px) {
     /* Navbar Brand */
   .navbar-brand-text {
-      margin-left: -220px;
+      margin-left: -115px;
   }
   
   .animation img {
@@ -280,8 +357,24 @@ body {
     margin-left: 20px;
     margin-top: 5rem;
   }
+  
 
   .why-jaicomp p {
       margin-right: 60px;
   }
-}            
+
+  .row {
+    display: inline-block;
+}
+
+.card {
+    margin: 0 40px;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    padding-bottom: 15px;
+}
+  
+}
+
+                  

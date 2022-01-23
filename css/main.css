@@ -183,13 +183,13 @@ body {
 /* -------------------------------------------------------------------------------------------------------- */
                                             /* Responsive Mobile*/   
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 700px) {
     /* Navbar Brand */
   .navbar-brand-text {
-      margin-left: -90px;
+      margin-left: -230px;
   }
-
-   .animation img {
+  
+  .animation img {
       display: none;
   }
 
@@ -200,7 +200,46 @@ body {
   .why-jaicomp p {
       margin-right: 60px;
   }
-}
+}                            
+
+@media only screen and (max-width: 400px) {
+    /* Navbar Brand */
+  .navbar-brand-text {
+      margin-left: -140px;
+  }
+  
+  .animation img {
+      display: none;
+  }
+
+  header {
+      text-align: center;
+  }
+
+  .why-jaicomp p {
+      margin-right: 60px;
+  }
+}  
+
+@media only screen and (max-width: 380px) {
+    /* Navbar Brand */
+  .navbar-brand-text {
+      margin-left: -130px;
+  }
+  
+  .animation img {
+      display: none;
+  }
+
+  header {
+      text-align: center;
+  }
+
+  .why-jaicomp p {
+      margin-right: 60px;
+  }
+}  
+
 
 @media only screen and (max-width: 375px) {
     /* Navbar Brand */
@@ -220,43 +259,46 @@ body {
       margin-right: 60px;
   }
 }    
+       
+@media only screen and (max-width: 360px) {
+    /* Navbar Brand */
+  .navbar-brand-text {
+      margin-left: -110px;
+  }
+
+   .animation img {
+      display: none;
+  }
+
+  header {
+      text-align: center;
+  }
+
+  .why-jaicomp p {
+      margin-right: 60px;
+  }
+}    
+
+@media only screen and (max-width: 350px) {
+    /* Navbar Brand */
+  .navbar-brand-text {
+      margin-left: -90px;
+  }
+
+   .animation img {
+      display: none;
+  }
+
+  header {
+      text-align: center;
+  }
+
+  .why-jaicomp p {
+      margin-right: 60px;
+  }
+}
+
 
     
 
-@media only screen and (max-width: 400px) {
-    /* Navbar Brand */
-  .navbar-brand-text {
-      margin-left: -140px;
-  }
-  
-  .animation img {
-      display: none;
-  }
-
-  header {
-      text-align: center;
-  }
-
-  .why-jaicomp p {
-      margin-right: 60px;
-  }
-}            
-                                            
-@media only screen and (max-width: 700px) {
-    /* Navbar Brand */
-  .navbar-brand-text {
-      margin-left: -230px;
-  }
-  
-  .animation img {
-      display: none;
-  }
-
-  header {
-      text-align: center;
-  }
-
-  .why-jaicomp p {
-      margin-right: 60px;
-  }
-}        
+                                     

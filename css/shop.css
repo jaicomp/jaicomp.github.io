@@ -145,14 +145,58 @@ body {
 
 /* -------------------------------------------------------------------------------------------------------- */
                                             /* Responsive Mobile*/
-     
-
-
-
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 700px) {
     /* Navbar Brand */
   .navbar-brand-text {
-      margin-left: -115px;
+      margin-left: -220px;
+  }
+  
+  .animation img {
+      display: none;
+  }
+
+  header {
+      text-align: center;
+  }
+
+  .container-lg {
+    margin-left: 20px;
+    margin-top: 5rem;
+  }
+
+  .why-jaicomp p {
+      margin-right: 60px;
+  }
+}    
+
+@media only screen and (max-width: 400px) {
+    /* Navbar Brand */
+  .navbar-brand-text {
+      margin-left: -170px;
+  }
+  
+  .animation img {
+      display: none;
+  }
+
+  header {
+      text-align: center;
+  }
+
+  .container-lg {
+    margin-left: 20px;
+    margin-top: 5rem;
+  }
+
+  .why-jaicomp p {
+      margin-right: 60px;
+  }
+}         
+
+@media only screen and (max-width: 400px) {
+    /* Navbar Brand */
+  .navbar-brand-text {
+      margin-left: -150px;
   }
   
   .animation img {
@@ -197,10 +241,10 @@ body {
   }
 }         
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 360px) {
     /* Navbar Brand */
   .navbar-brand-text {
-      margin-left: -170px;
+      margin-left: -135px;
   }
   
   .animation img {
@@ -221,10 +265,11 @@ body {
   }
 }         
 
-@media only screen and (max-width: 700px) {
+
+@media only screen and (max-width: 350px) {
     /* Navbar Brand */
   .navbar-brand-text {
-      margin-left: -220px;
+      margin-left: -115px;
   }
   
   .animation img {
@@ -243,4 +288,6 @@ body {
   .why-jaicomp p {
       margin-right: 60px;
   }
-}    
+}         
+
+
