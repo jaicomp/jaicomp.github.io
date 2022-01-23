@@ -166,10 +166,10 @@ body {
 
 /* -------------------------------------------------------------------------------------------------------- */
                                             /* Responsive Mobile*/
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 350px) {
     /* Navbar Brand */
   .navbar-brand-text {
-      margin-left: -220px;
+      margin-left: -115px;
   }
   
   .animation img {
@@ -188,7 +188,7 @@ body {
   .why-jaicomp p {
       margin-right: 60px;
   }
-}            
+}
 
 @media only screen and (max-width: 375px) {
     /* Navbar Brand */
@@ -254,10 +254,34 @@ body {
   }
 
   .card {
-      margin: 0 50px;
+      margin: 0 62px;
       justify-content: center;
       text-align: center;
       width: 250px;
       padding-bottom: 15px;
   }
 }                              
+
+@media only screen and (max-width: 700px) {
+    /* Navbar Brand */
+  .navbar-brand-text {
+      margin-left: -220px;
+  }
+  
+  .animation img {
+      display: none;
+  }
+
+  header {
+      text-align: center;
+  }
+
+  .container-lg {
+    margin-left: 20px;
+    margin-top: 5rem;
+  }
+
+  .why-jaicomp p {
+      margin-right: 60px;
+  }
+}            
