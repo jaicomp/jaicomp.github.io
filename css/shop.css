@@ -192,3 +192,27 @@ body {
       margin-right: 60px;
   }
 }         
+
+@media only screen and (max-width: 300px) {
+    /* Navbar Brand */
+  .navbar-brand-text {
+      margin-left: -85px;
+  }
+  
+  .animation img {
+      display: none;
+  }
+
+  header {
+      text-align: center;
+  }
+
+  .container-lg {
+    margin-left: 20px;
+    margin-top: 5rem;
+  }
+
+  .why-jaicomp p {
+      margin-right: 60px;
+  }
+}         
