@@ -193,10 +193,10 @@ body {
   }
 }         
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 400px) {
     /* Navbar Brand */
   .navbar-brand-text {
-      margin-left: -85px;
+      margin-left: -170px;
   }
   
   .animation img {
