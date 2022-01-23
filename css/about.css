@@ -188,4 +188,40 @@ body {
   .why-jaicomp p {
       margin-right: 60px;
   }
+}            
+
+@media only screen and (max-width: 390px) {
+    /* Navbar Brand */
+  .navbar-brand-text {
+      margin-left: -145px;
+  }
+  
+  .animation img {
+      display: none;
+  }
+
+  header {
+      text-align: center;
+  }
+
+  .container-lg {
+    margin-left: 20px;
+    margin-top: 5rem;
+  }
+
+  .why-jaicomp p {
+      margin-right: 60px;
+  }
+
+  .row {
+      display: inline-block;
+  }
+
+  .card {
+      margin: 0 50px;
+      justify-content: center;
+      text-align: center;
+      width: 250px;
+      padding-bottom: 15px;
+  }
 }                                                    
