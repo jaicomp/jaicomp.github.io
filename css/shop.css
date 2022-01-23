@@ -169,7 +169,7 @@ body {
   }
 }         
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 375px) {
     /* Navbar Brand */
   .navbar-brand-text {
       margin-left: -145px;
